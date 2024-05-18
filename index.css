@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #ffffff;
@@ -11,7 +12,6 @@ body {
   font-size: 14px;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 header {
   display: flex;
@@ -70,13 +70,14 @@ span.contact:hover::before {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 .advert {
   margin-top: 100px;
-  width: 100%;
   position: relative;
   padding-left: 100px;
   transition: 0.3s;
+  width: 1150px;
 }
 .advert h3::before {
   content: "";
@@ -89,6 +90,12 @@ span.contact:hover::before {
 }
 .advert h3:hover::before {
   width: 20px;
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1150px;
 }
 
 div.img {
@@ -109,7 +116,6 @@ img.img-2:hover {
 .introduce {
   display: flex;
   position: relative;
-  width: 70%;
 }
 
 .profile {
@@ -185,6 +191,9 @@ footer {
   margin: 100px 0 100px 0;
   width: 100%;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .social ul {
   list-style: none;
