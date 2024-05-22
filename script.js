@@ -9,10 +9,10 @@ function showSlides(index) {
 }
 
 function currentSlide(index) {
-  clearInterval(autoSlideInterval); // Stop the automatic slideshow when user manually changes slide
+  clearInterval(autoSlideInterval);
   slideIndex = index - 1;
   showSlides(slideIndex);
-  autoSlideInterval = setInterval(nextSlide, 3000); // Restart the automatic slideshow
+  autoSlideInterval = setInterval(nextSlide, 3000);
 }
 
 function nextSlide() {
@@ -20,8 +20,72 @@ function nextSlide() {
   showSlides(slideIndex);
 }
 
-// Initialize the first slide and start the automatic slideshow
+function initSlider(
+  sliderSelector,
+  slideClass,
+  prevButtonSelector,
+  nextButtonSelector,
+  slidesToShow = 3
+) {
+  const slider = document.querySelector(sliderSelector);
+  const slides = document.querySelectorAll(slideClass);
+  const prevButton = document.getElementById(prevButtonSelector);
+  const nextButton = document.getElementById(nextButtonSelector);
+
+  let currentIndex = 0;
+  const totalSlides = slides.length;
+
+  const updateSlider = () => {
+    const offset = -currentIndex * (100 / slidesToShow);
+    slider.style.transform = `translateX(${offset}%)`;
+  };
+
+  const nextSlideAuto = () => {
+    if (currentIndex < totalSlides - slidesToShow) {
+      currentIndex++;
+    } else {
+      currentIndex = 0;
+    }
+    updateSlider();
+  };
+
+  prevButton.addEventListener("click", () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+    } else {
+      currentIndex = totalSlides - slidesToShow;
+    }
+    updateSlider();
+    resetAutoSlide();
+  });
+
+  nextButton.addEventListener("click", () => {
+    if (currentIndex < totalSlides - slidesToShow) {
+      currentIndex++;
+    } else {
+      currentIndex = 0;
+    }
+    updateSlider();
+    resetAutoSlide();
+  });
+
+  const resetAutoSlide = () => {
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = setInterval(nextSlideAuto, 3000);
+  };
+
+  updateSlider();
+  autoSlideInterval = setInterval(nextSlideAuto, 3000);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   showSlides(slideIndex);
-  autoSlideInterval = setInterval(nextSlide, 3000); // Change image every 3 seconds
+  autoSlideInterval = setInterval(nextSlide, 3000);
+
+  initSlider(".slider", ".slide", "prev", "next");
+  initSlider(".slider-2", ".slide-2", "prev-2", "next-2");
+  initSlider(".slider-3", ".slide-3", "prev-3", "next-3");
+  initSlider(".slider-4", ".slide-4", "prev-4", "next-4");
+  initSlider(".slider-5", ".slide-5", "prev-5", "next-5");
+  initSlider(".slider-6", ".slide-6", "prev-6", "next-6");
 });
