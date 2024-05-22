@@ -3,358 +3,288 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Coffee Shop</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="container">
-        <div class="logo">
-          <img src="./img/youtube.png" alt="" width="45"/>
-        </div>
-        <div class="menu-head">
-          <font style="color: #ff0000; margin-left: 150px;" class="drop">Toàn cầu</font>
-          <span class="drop"
-            ><img src="./img/down-arrow.png" alt="" width="10px"  class="drop"/>
-          </span>
-        </div>
-        <span class="menu-head" style="margin-right: 50px; color:#777777;"
-          >Studio Thiết kế giao diện người dùng UX</span
-        >
-        <ul class="menu-head" style="margin-right: 50px">
-          <a href="" class="be"><li>Dịch vụ</li></a>
-          <a href="" class="be"><li>Dự Án</li></a>
-          <a href="" class="be"><li>Quá trình</li></a>
-          <a href="" class="be"><li>Các ngành nghề</li></a>
-        </ul>
-        <div class="menu-head">
-          <a href="" style="text-decoration: none;">
-            <span class="contact" style="color: #ff0000"
-              >Liên hệ với chúng tôi</span
-            >
-          </a>
-        </div>
-        <div class="menu-head">
-          <div class="">
-            <span class="rod"></span>
-            <span class="rod"></span>
-            <span class="rod"></span>
+        <h1>Coffee Shop</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Trang Chủ</a></li>
+            <li><a href="#about">Web Order</a></li>
+            <li><a href="#menu">E-Shop</a></li>
+            <li><a href="#contact">Đăng Ký</a></li>
+            <li><a href="#contact">Thương Hiệu</a></li>
+            <li><a href="#contact">Công việc</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="center-head">
+          <div style="width: 460px">
+            <p><font>S-Coffee</font></p>
+            <p>
+              <font style="font-size: 32px"
+                >Hơi thở hiện đại trong từng tách coffee
+              </font>
+            </p>
+          </div>
+          <div class="btn">
+            <span>
+              Đăng ký
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+                style="margin-left: 10px"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </span>
+          </div>
+          <div class="convert">
+            <div class="controls">
+              <center>
+                <button
+                  class="control-button"
+                  onclick="currentSlide(1)"
+                ></button>
+                <button
+                  class="control-button"
+                  onclick="currentSlide(2)"
+                ></button>
+                <button
+                  class="control-button"
+                  onclick="currentSlide(3)"
+                ></button>
+              </center>
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <div class="main">
-      <div class="advert" style="margin-bottom: 50px;">
-        <span>Blog</span>
-        <h3 style="font-size: 50px">
-          8 Xu hướng thiết kế website 2024 dự đoán sẽ “làm mưa làm gió”
-        </h3>
-        <br>
-        <div style="margin-top: 20px; font-size: 24px;">
-          Đăng vào ngày 16 tháng 5 năm 2023
+
+    <section id="home">
+      <div class="container"></div>
+    </section>
+
+    <section id="about">
+      <div class="container" style="width: 700px; font-size: 16px">
+        <center>
+          <p>
+            Coffee Shop mang đến phong cách sống hiện đại đi cùng cà phê và công
+            nghệ. Với thiết kế tinh tế và nguyên liệu chọn lọc nhằm mang lại
+            trải nghiệm độc đáo, Coffee Shop mong muốn trở thành điểm nhấn cho
+            một ngày của bạn thêm phần trọn vẹn.
+          </p>
+        </center>
+        <div style="padding: 20px; color: #cc9966; font-weight: 600">
+          <center><span>Tìm hiểu về chúng tôi ►</span></center>
         </div>
       </div>
-      <center>
-        <div class="img-1" style="margin-top: 50px;" >
+    </section>
+
+    <section id="menu" style="padding: 100px 0 100px 0">
+      <div style="margin: 50px 50px 100px 50px">
+        <center>
+          <h4 style="font-size: 26px; font-weight: 600">
+            Đăng ký Gói Coffee Shop Subscribe
+          </h4>
+        </center>
+      </div>
+      <div class="container">
+        <div class="menu-item" style="margin-bottom: 2rem">
+          <img src="https://wegocoffee.com/img/common/figure-1.svg" alt="" />
+          <h3>Tiết kiệm thời gian</h3>
+          <p>
+            Rút ngắn thời gian đặt hàng và lựa chọn đồ uống. Cảm nhận hương vị
+            cà phê thơm ngon được Coffe Shop mang đến mỗi ngày, hách hàng dùng
+            thử hay tín đồ cà phê.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="https://wegocoffee.com/img/common/figure-2.svg" alt="" />
+          <h3>Ưu đãi đặc biệt</h3>
+          <p>
+            Coffe Shop mang lại ưu đãi phù hợp nhất cho từng đối tượng, dù bạn
+            là khách hàng riêng lẻ, khách hàng doanh nghiệp, khách hàng dùng thử
+            hay tín đồ cà phê.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="https://wegocoffee.com/img/common/figure-3.svg" alt="" />
+          <h3>Tối ưu hóa trải nghiệm</h3>
+          <p>
+            Tùy chỉnh linh hoạt hương vị cà phê mỗi ngày. Tự tay thiết kế ly cà
+            phê tuyệt hảo cho chính mình. Cà phê độc quyền theo phong cách của
+            bạn.
+          </p>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 10px">
+        <div class="btn" style="width: 300px; color: #fff">
+          <span>
+            Lựa chọn gói Wego Subscribe
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+              style="margin-left: 10px"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section style="padding: 50px 0 100px 0">
+      <center><h2>#CoffeeShop</h2></center>
+    </section>
+    <section style="padding: 50px 0 100px 0">
+      <center><h3 style="padding: 0 0 20px 0">Tải ứng dụng</h3></center>
+      <div class="container">
+        <center>
           <img
-            src="https://lollypop.design/wp-content/uploads/2023/12/Xu-huong-thiet-ke.webp"
+            src="https://wegocoffee.com/img/google-play.png"
             alt=""
-            width="900px";
+            width="200px"
+            style="margin-right: 20px"
+          />
+          <img
+            src="https://wegocoffee.com/img/app-store.png"
+            alt=""
+            width="200px"
+          />
+        </center>
+      </div>
+    </section>
+    <hr />
+    <footer>
+      <div class="container">
+        <div class="footer-top-item">
+          <ul>
+            <h5>Hỗ trợ</h5>
+            <a href=""><li>Hướng dẫn đặt hàng</li></a>
+            <a href=""><li>Câu hỏi thường gặp</li></a>
+            <a href=""><li>Phương thức vận chuyển</li></a>
+            <a href=""> <li>Chính sách thanh toán</li></a>
+          </ul>
+        </div>
+        <div class="footer-top-item">
+          <ul>
+            <h5>Coffee Shop Subcribe</h5>
+            <a href=""><li>Gói cà phê định kỳ</li></a>
+          </ul>
+        </div>
+        <div class="footer-top-item">
+          <h5>Hãy theo dõi chúng tôi</h5>
+          <div class="social">
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-instagram"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                />
+              </svg>
+            </a>
+            <a href="" style="margin-left: 30px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-top-item">
+          <center><h5>Phương thức thanh toán</h5></center>
+          <div class="social">
+            <img
+              src="https://wegocoffee.com/img/payments/ic_internet_banking.svg"
+              alt=""
+            />
+            <img src="https://wegocoffee.com/img/payments/ic_momo.svg" alt="" />
+            <img
+              src="https://wegocoffee.com/img/payments/ic_vnpay.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="footer-top-item">
+          <ul>
+            <h5>Công ty</h5>
+            <a href=""><li>Về chúng tôi</li></a>
+            <a href=""><li>Thương hiệu</li></a>
+            <a href=""><li>Công việc</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hotline">
+          <p><b>Hotline chăm sóc khách hàng:</b> 012 3456 789</p>
+          <p>
+            <b>Địa chỉ văn phòng:</b> Ionia 0175 Sumaria, Quận Trost, Thành phố
+            Susan
+          </p>
+          <p><b>Email:</b> Susan0175Abe@gmail.com</p>
+        </div>
+        <div>
+          <img
+            src="https://wegocoffee.com/img/certification.png"
+            alt=""
+            width="100px"
           />
         </div>
-      </center>
-      <div style="margin-top: 50px; font-size: 18px; line-height: 26px;" class="mid">
-        <p>
-          Cùng với sự phát triển mạnh mẽ của công nghệ, các trang web
-          <span style="color: #ff0000">thiết kế xu hướng</span> hiện nay cũng
-          không ngừng thay đổi qua từng năm. Điều này đòi hỏi các doanh nghiệp
-          và các nhà thiết kế phải luôn cập nhật và nắm bắt xu hướng thiết kế
-          mới nhất để trang web không trở nên lỗi thời và mang lại những trải
-          nghiệm thú vị và hấp dẫn hơn cho người dùng.
-          <br />
-          Vậy đâu là dự báo các thiết kế web xu hướng sẽ gây sốt trong năm 2024?
-          Cùng Lollypop Design Studio khám phá trong bài viết sau. Một xu hướng
-          thiết kế đã chứng minh tính ứng dụng của mình và vẫn giữ được độ “hot”
-          qua nhiều năm, nên đừng quá nghi ngờ khi bắt được một vài cái tên quen
-          thuộc nhé!
-        </p>
-        <div class="introduce">
-          <div style="margin-top: 50px; font-size: 18px">
-            <h1>1. Thiết kế Tương tác 3D</h1>
-            <video
-              src="./video/5447981688879.mp4"
-              type="video/mp4"
-              autoplay="autoplay"
-              controls
-              width="700px"
-              style="margin-top: 10px;"
-            ></video>
-            <span>
-              Nguồn: Lollypop Design Studio <br />
-              <br />
-              Interactive 3D là công nghệ cho phép người dùng có thể tương tác
-              với các mô hình hoặc môi trường ba chiều (3D). Hiện nay, thiết kế
-              Interactive 3D đang được ứng dụng rộng rãi trong giao diện của
-              nhiều lĩnh vực như kiến ​​trúc, ứng dụng và trò chơi, mang đến một
-              không gian có chiều sâu tạo ra trải nghiệm tương tác hấp dẫn và ấn
-              tượng cho người dùng use. <br />
-              <br />
-              Vào năm 2024, ứng dụng 3D trong thiết kế web tiếp tục phát hiện
-              mạnh mẽ mà không có dấu hiệu chậm lại. Sự mong đợi của các công
-              nghệ thực tế tăng cường (AR) và Thực tế Ảo (VR) đang trải nghiệm
-              3D lên một tầm cao mới, tạo ra những trải nghiệm tương tác đa
-              chiều và sống động cho người dùng. Các khía cạnh này đang mở ra
-              cánh cửa cho sự sáng tạo không giới hạn, hứa hẹn mang đến những
-              trải nghiệm trực tuyến độc và thu hút người dùng.
-            </span>
-
-            <h1 style="margin: 100px 0 50px 0">2. Thiết kế Tương tác 3D</h1>
-            <img
-              class="img-2"
-              src="https://lollypop.design/wp-content/uploads/2023/12/Glassmorphism.webp"
-              alt=""
-              width="700px"
-              height="400px"
-              style="margin-bottom: 50px"
-            />
-            <span>
-              Glassmorphism, một xu hướng thiết kế UI độc đáo, lấy cảm hứng từ
-              vẻ ngoài trong suốt của thủy tinh và kết hợp với hiệu ứng bóng
-              bóng, tạo ra không gian thiết kế hiện đại, tinh tế và trẻ trung.
-              Xu hướng này không chỉ xuất hiện trên nhiều trang web giao diện và
-              ứng dụng ngày nay mà vẫn được tích hợp trên các ảo hóa giao diện
-              thực tế, như chiếc điện thoại thông minh “Vision Pro” của Apple.
-              Điều này cho phép người dùng tương tác với sản phẩm giao diện mà
-              vẫn có thể quan sát xung quanh. <br />
-              <br />
-              Khi sử dụng Glassmorphism, Designer cần chú ý đến công việc phân
-              cấp thông tin để tránh tạo ra quá nhiều lớp kính, gây khó khăn cho
-              người xem trong việc nhận biết các phần quan trọng. Đồng thời, màu
-              sắc và kích thước của phông chữ cũng đóng vai trò quan trọng để
-              tránh làm mờ đi sự rõ ràng khi hòa vào nền. Một mẹo hữu ích là sử
-              dụng các gam màu sáng hoặc gradient để tạo hiệu ứng mờ đục nổi
-              bật, tạo ra trải nghiệm thị giác giác tế và hấp dẫn.
-            </span>
-            <h1 style="margin: 50px 0 20px 0">
-              3. Tương tác vi mô (Tương tác vi mô)
-            </h1>
-            <span> Nguồn: Facebook </span><br />
-            <br />
-            Tương tác vi mô là một xu hướng thiết kế các yếu tố nhỏ trên Trang
-            web, khơi gợi mẹo sự chú ý và tạo nên những trải nghiệm tương tác
-            thú vị và cuốn hút cho người dùng. Một số hiện tượng tương tác vi mô
-            phổ biến hiện nay có thể kể đến như: các tùy chọn phản ứng trên
-            Facebook, Button đổi màu khi di chuột đến, đường viền đổi màu khi
-            người dùng điền văn bản vào các biểu mẫu,,… <br />
-            <br />
-            Khi áp dụng phong cách này, các nhà thiết kế UI/UX cần đảm bảo các
-            tương tác vi mô được thiết kế phù hợp với phong cách chủ đạo. không
-            gây phiền toái hoặc mất trung tâm cho người dùng. <br />
-            <br />
-            Có thể bạn chưa biết:
-            <a class="bf"
-              style="text-decoration: none; font-weight: 500; color: #ff0000"
-              href="https://ecpmedia.vn/phan-biet-website-b2b-va-website-b2c.html#:~:text=Tr%C3%AAn%20trang%20web%20B2B%2C%20kh%C3%A1ch,%C4%91%C6%A1n%20h%C3%A0ng%20th%C6%B0%E1%BB%9Dng%20nh%E1%BB%8F%20h%C6%A1n."
-              >Phân biệt thiết kế website thương mại điện tử B2B và B2C</a
-            >
-            <h1 style="margin: 50px 0 20px 0">
-              4. Hiệu ứng cuộn Parallax Scrolling
-            </h1>
-
-            <iframe
-              width="700px"
-              height="400px"
-              src="https://www.youtube.com/embed/1wfeqDyMUx4?si=R-SqBSIS5teNuy8n"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-              style="margin-bottom: 50px"
-            ></iframe>
-            <span
-              >Nguồn: Online Tutorials <br />
-              <br />
-              Cuộn thị sai là một trang web thiết kế theo hướng xu hướng, trong
-              đó các phần tử trên trang được chia thành các lớp tương ứng với
-              các chuyển đổi độ sâu và tốc độ khác nhau. Cụ thể, các lớp phía
-              trước thường chuyển động nhanh hơn so với các lớp phía sau, tạo ra
-              hiệu ứng ảo giác về chiều sâu và chuyển động 3D khi người dùng
-              cuộn trang. <br />
-              <br />
-              Có thể xem Parallax Scrolling như một con dao hai sọc, nếu được áp
-              dụng hợp lý sẽ giúp Website tạo được ấn tượng mạnh mẽ. Ngược lại,
-              hiệu ứng này sẽ khiến Website trở nên sống động vô cùng, gây ra
-              cảm giác giác khó chịu nơi người dùng. Ngoài ra, ứng dụng Parallax
-              Scrolling còn có thể khiến trang web trở nên chậm hơn, ảnh hưởng
-              đến tốc độ tải trang. Do đó, nếu không được tối ưu thì sẽ mang lại
-              trải nghiệm không tốt cho khách truy cập, khiến họ rời khỏi Trang
-              web.
-            </span>
-            <h1 style="margin: 50px 0 20px 0">
-              5. Thiết kế tối giản (Chủ nghĩa tối giản)
-            </h1>
-            <iframe width="700px" height="400px" src="https://www.youtube.com/embed/hKqfo_IlpHw?si=e-3-QXuI9QgFCE3s" title="YouTube video player" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 50px">
-            </iframe>
-            <span
-              >Nguồn: Đã thay thế<br />
-              <br />
-              Chủ nghĩa tối giản không chỉ là phong cách mà được coi là một lý thuyết thiết kế theo chủ nghĩa “Less is more”. Các thiết kế Minimalism thường tập trung vào nội dung cốt lõi nhằm tạo ra một giao diện đơn giản và dễ sử dụng. Thiết kế Chủ nghĩa tối giản giúp người đọc nắm bắt thông tin nhanh chóng, tạo ra trải nghiệm thoải mái và dễ dàng hơn trong quá trình tương tác. <br />
-              <br />
-              Thiết kế trang web theo phong cách tối giản thường xuyên hạn chế sử dụng nhiều tông màu hay họa tiết cầu kỳ. Bên cạnh đó, các không gian trống được tận dụng một cách thông minh, giúp tạo ra sự thoáng đãng cho thiết kế, từ đó tạo điểm nhấn cho các yếu tố quan trọng.
-            </span>
-            <h1 style="margin: 50px 0 20px 0">
-              6. Lưới Bento 
-            </h1>
-            <iframe width="700px" height="400" src="https://www.youtube.com/embed/yJnKIEogUbM?si=kvM3NB99e82Geryz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <span
-              >Nguồn: Codex Community <br />
-              <br />
-              Bento Grid là một web giao diện thiết kế theo hướng bố trí theo dạng mạng, được truyền cảm hứng từ hộp cơm Bento truyền thống của Nhật Bản. Dù đã tồn tại hàng thập kỷ, Bento Grid sắp trở nên phổ biến gần đây, sau khi Apple sử dụng bố cục này cho các giao diện trên iPhone 18 Pro và Apple Card. <br />
-              <br />
-             <a href="" class="bf">Bento Grid</a> thường được ứng dụng trong các thiết kế trang tin tức, Landing Page, E-commerce hay Dashboard, giúp mang lại cảm giác hiện đại cho các thiết kế. Ngoài ra, phong cách này cũng vô cùng hoạt động, cho phép hiển thị đồng thời nhiều loại nội dung như hình ảnh, văn bản,… một cách tổ chức,  <a href="" class="bf">thiết kế web responsive</a> sẽ giúp Website dọn dẹp và hấp dẫn hơn. 
-            </span>
-            <h1 style="margin: 50px 0 20px 0">
-              7. Văn bản quá khổ 
-            </h1>
-            <span> 
-              Văn bản quá khổ là một phong cách thiết kế sử dụng các phông chữ chữ lớn, bắt mắt để tạo cảm giác kịch tính và phân cấp trên trang, nhắm thu hút sự chú ý đến các yếu tố quan trọng như tiêu đề hay nút kêu gọi hành động . <br />
-              <br>
-              Với Oversized Text được thiết kế, người đọc có thể nắm bắt được các thông tin quan trọng ngay từ cái nhìn đầu tiên. Ngoài ra, áp dụng Oversized Text một cách ít nhất có thể giúp xây dựng bản sắc thương hiệu, tạo ra Trang web trở nên khác biệt so với đối thủ cạnh tranh.
-            </span>
-            <h1 style="margin: 50px 0 20px 0">
-              8. Nghệ thuật thiết kế Scrollytelling  
-            </h1>
-            <iframe width="700px" height="400" src="https://www.youtube.com/embed/jPynh2Ul4Aw?si=-gxBsfIbNi-ZfkmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 10px;"></iframe>
-            <span
-              >Nguồn: Online Tutorials <br />
-              <br />
-              Scrollytelling là một phong cách thiết kế Website theo một câu chuyện liền mạch, trong đó từng phần của câu chuyện sẽ được tiết lộ một lần như khi người dùng cuộn trang xuống (cuộn). Scrollytelling là sự kết hợp hài hòa giữa văn bản, các ứng dụng hoạt hình, âm thanh và video minh họa, tạo ra trải nghiệm tương tác biểu tượng, chấm dứt người dùng cuộn trang liên tục để đọc cùng. <br />
-              <br />
-              Trong bối cảnh cạnh tranh gay gắt hiện nay, người dùng dễ bị phân tâm bởi nhiều yếu tố thông tin khác nhau trên Internet. Tuy nhiên, giống như Bill Gates từng nói “Nội dung là vua!”, một thiết kế Hiệu ứng Scrollytelling sẽ tạo ra một trải nghiệm liền mạch, một chuyến phiêu lưu vị thú vị, Người cuốn người dùng chìm vào câu chuyện của thương hiệu . 
-              <br>
-              <br>
-              Tìm hiểu thêm: <a href="" class="bf">Thiết kế UI/UX là gì? Khái niệm và quy trình thiết kế UI UX linh hoạt</a>
-            </span> 
-            <h1 style="margin: 50px 0 20px 0">
-              Tạm kết
-            </h1>
-            <span
-              > 
-              <br />
-              Trên đây là 8 xu hướng thiết kế website 2024 dự kiến ​​sẽ “gây bão” trong thời gian sắp tới. Tuy nhiên, doanh nghiệp nên cân nhắc kỹ năng về định vị thương hiệu và đối tượng khách hàng tiêu điểm để lựa chọn phong cách phù hợp. Mặt khác, các doanh nghiệp cũng cần chú ý đến tiêu chuẩn SEO <a href="" class="bf">thiết kế trang web</a> tối ưu để có thể đưa trang web vào luồng khách hàng chính xác. Một thiết kế tích hợp AR/VR sẽ tạo ra trải nghiệm độc đáo cho các Trang web về công nghệ dành cho người dùng trẻ em. Trong khi đó, phong cách Chủ nghĩa tối giản sẽ phù hợp hơn với doanh nghiệp có tệp khách hàng lớn tuổi, nhắm mang đến trải nghiệm dễ chịu và thoải mái. <br />
-              <br />
-              Và trên hành trình “thay màu áo mới” Website cho doanh nghiệp, đội ngũ Lollypop hãy sẵn sàng đồng hành! Lollypop Vietnam là  công ty thiết kế UI UX hàng đầu tại TP.HCM, tập trung các chuyên gia thiết kế giàu kinh nghiệm, cung cấp giải pháp thiết kế toàn diện từ Nghiên cứu, Thiết kế đến Phát triển sản phẩm trên nền tảng số. 
-              <br> <br>
-              Hãy kết nối với Lollypop để được tư vấn miễn phí về cách tối trải nghiệm Website cho doanh nghiệp của bạn!
-            </span>
-          </div>
-          <div class="my-profile">
-            <div class="profile" style="padding-left: 200px">
-              <div class="avt">
-                <span style="font-size: 20px; margin: 30px"> Written by</span>
-                <img
-                  src="https://i.pinimg.com/564x/b9/28/e1/b928e1f1ea31e024cf2ceb8fe65083db.jpg"
-                  alt=""
-                  style="border-radius: 50%"
-                  width="200px"
-                />
-                <span style="margin-top: 30px;">Ivankov - UX UI Designer </span>
-                <center style="font-size: 14px">
-                  UX Design — Gain in-demand skills with Cyber Certificates, In
-                  less than 6 months for a career boost!
-                </center>
-              </div>
-              <hr style="width:100%; margin-top: px; opacity: 20%;">
-              <br>
-              <div>
-                <a href="" style="text-decoration: none; font-weight: 500; color: #110000; font-size: 22px;">Tương lai của trải nghiệm chăm sóc sức khỏe: Sức mạnh của UX</a> <br>
-               
-                <span style="font-size: 12px;">
-                   Bởi
-                  Charan Babu N, ngày 9 tháng 5 năm 2024
-                </span> 
-                <hr style="width:100%; margin: 30px 0 30px 0; opacity: 20%;">
-                <a href="" style="text-decoration: none; font-weight: 500; color: #110000; font-size: 22px;">Hướng dẫn tạo giao diện ứng dụng với Flutter UI Design
-                 </a> <br>
-             
-                  <span style="font-size: 20px; font-size: 12px;">
-                    Bởi Udaykumar Kadam, ngày 26 tháng 4 năm 2024
-                 </span> 
-            </div>
-          </div>
-        </div>
-      </div>   
-    </div>
-    <div><hr style="margin-top: 100px; width: 600px; opacity: 40%;"></div>
-    <footer>
-       <div class="container-footer">
-        <div class="head-footer">
-          <center style="font-size: 16px;">Theo dõi công việc của chúng tôi</center>
-          <center style="font-size: 30px; font-weight: 800;" class="social">
-            <ul>
-              <a><li class="l1">LinkedIn</li></a>
-              <a><li class="l2">Instagram</li></a>
-              <a><li class="l3">Facebook</li></a>
-              <a><li class="l4">Dribbble</li></a>
-              <a><li class="l5">Twitter</li></a>
-            </ul>
-          </center>
-        </div>
-          <div class="bottom-footer">
-            <div class="bottom-footer-left">
-              <a href="">
-                <button>
-                  DESIGN
-                </button>
-              </a>
-              <p style="padding-bottom: 20px;">
-                MỘT <span style="font-weight: 650; font-size: 16px; ">địa hình</span> công ty tạo ra những trải nghiệm có ý nghĩa thông qua Nghiên cứu, Thiết kế và Phát triển.
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="hotline">
+            <p>
+              © 2024 - Bản quyền của Công ty Cổ Phần Coffee Shop - Susan.com
+            </p>
+            <div>
+              <p>
+                Giấy chứng nhận đăng ký kinh doanh số 0123456789 do Sở Kế hoạch
+                và Đầu tư Thành phố Susan cấp ngày 21/08/2050
               </p>
-              <ul>
-                <li><p>© 2024 Lollypop - Công ty Terralogic</p></li>
-                <a style="color: #777777;"><li>Câu hỏi thường gặp</li></a>
-                <a style="color: #777777;"><li>Chính sách bảo mật</li></a>
-                <a style="color: #777777;"><li>Điều khoản sử dụng</li></a>
-              </ul>
-              
-            </div>
-            <div class="bottom-footer-right" style="margin-left: 100px;"> 
-              <div class="right-element">
-                <a href="">
-                  <h3>Ấn Độ</h3>
-                  <div>Bangalore</div>
-                  <div>Mumbai</div>
-                  <div>Chennai</div>
-                  <div>Hyderabad</div>
-                </a>
-              </div>
-              <div class="right-element">
-                <a href="">
-                  <h3>Hoa Kỳ</h3>
-                  <div>San Jose</div>
-                  <div>Dallas</div>
-                  <div>Thành Phố Salt</div>
-                  <div>Lake</div>
-                </a>
-              </div>
-              <div class="right-element">
-                <a href="">
-                  <h3 style="width: 100px;">Các Tiểu Vương Quốc Ả Rập Thống Nhất</h3>
-                  <div>Dubai</div>
-                </a>
-              </div>
-              <div class="right-element">
-                <a href="">
-                  <h3>Việt Nam</h3>
-                  <div>Thành Phố Hồ Chí Minh</div>
-                </a>
-              </div>
             </div>
           </div>
-       </div>
+          <div class="hotline">
+            <p>Điều khoản sử dụng</p>
+          </div>
+          <div class="hotline">
+            <p>Chính sách bảo mật</p>
+          </div>
+        </div>
+      </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
