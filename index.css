@@ -199,11 +199,11 @@ footer div.container + div.container {
   background-color: #e8e8e8;
 }
 .main-order {
-  padding: 100px 0 100px 0;
+  padding: 10px 0 100px 0;
 }
 .coffee-order {
   font-size: 14px;
-  width: 69.5%;
+  width: 93%;
   margin-bottom: 50px;
 }
 .slideProduct button {
@@ -212,6 +212,7 @@ footer div.container + div.container {
   cursor: pointer;
   align-items: flex-start;
 }
+
 .slideProduct button + button {
   margin-left: 2px;
 }
@@ -515,4 +516,33 @@ center img + img {
 }
 .navigation {
   display: none;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.dk-1 {
+  width: 55%;
+  margin: 0;
+}
+center h2 {
+  margin: 0;
+  padding: 10px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  background-color: #e8e8e8;
+  justify-content: space-between;
+  padding: 10px 50px 10px 50px;
+  margin: 0 100px 0 0;
+}
+.menu a li {
+  font-size: 25px;
+  font-weight: 1000;
+  cursor: pointer;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(83, 56, 44);
 }

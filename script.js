@@ -21,7 +21,7 @@ function initSlider(
   slideClass,
   prevButtonSelector,
   nextButtonSelector,
-  slidesToShow = 3
+  slidesToShow = 4
 ) {
   const slider = document.querySelector(sliderSelector);
   const slides = document.querySelectorAll(slideClass);

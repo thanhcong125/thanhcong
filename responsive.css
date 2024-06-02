@@ -311,6 +311,10 @@
     justify-content: center;
     flex-direction: column;
   }
+  .dk-1 {
+    width: 100%;
+    margin-top: 10px;
+  }
   /* ......................................................................................................................... */
   .checkbtn {
     cursor: pointer;
